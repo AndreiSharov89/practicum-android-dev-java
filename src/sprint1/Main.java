@@ -26,7 +26,7 @@ class Main {
         // поработаем-ка мы до 8 вечера
         int time1 = doWork(time);
 
-        System.out.println("Пора бы поиграть в Playstation");
+        System.out.println("Пора бы поиграть в Playstation"); //ПК-бояре осуждают
         playPC(time1);
         System.out.println("Кажется, пора посмотреть фильм и пойти спать");
         watchMovie();
@@ -90,7 +90,7 @@ class Main {
 
     public static void playPC(int time) {
         while (time <= 24) {
-            System.out.println("Пиу пи");
+            System.out.println("Пиу пи"); //подразумевается стрельба, но стрелять с геймпада - meh
             time++;
         }
     }
